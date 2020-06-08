@@ -16,7 +16,7 @@ namespace ConsoleApplication1
             string filepath = @"D:\test.ini";
             string qq = string.Empty;
             int aa = GetPrivateProfileSectionA("ccc",bb,1024,filepath);
-            //1.3
+            //1.2
             Console.WriteLine(bb.ToString());
             Console.Read();
 
